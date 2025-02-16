@@ -3,11 +3,11 @@ import { FaBars } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const moreMenu = [
-  { name: "Projects", link:'/projectspage' },
-  { name: "Skills" , link:'/skills' },
-  { name: "Certifications" , link:'/certifications' },
-  { name: "Testimonials" , link:'/testimonials' },
-  { name: "Blog", link:'/blogs' },
+  { name: "Projects", link:'/ntdev/projectspage' },
+  { name: "Skills" , link:'/ntdev/skills' },
+  { name: "Certifications" , link:'/ntdev/certifications' },
+  { name: "Testimonials" , link:'/ntdev/testimonials' },
+  { name: "Blog", link:'/ntdev/blogs' },
 ];
 
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
           >
             <ul className={`flex gap-6 `}>
               <li className="hover:text-slate-500 font-semibold group relative">
-                <Link to={"/"}>Home</Link>
+                <Link to={"/ntdev/"}>Home</Link>
 
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300  group-hover:w-full "></span>
               </li>

@@ -73,7 +73,7 @@ const CardText = ({ theme }) => {
                   : ""
               } border-2 border-white p-3 rounded-full group-hover:bg-[#111a3b] group-hover:border-[#111a3b] group-hover:text-white group-hover:duration-300 group-hover:transition-all bg-[#111a3b] text-gray-500`}
             />
-            <Link to={"/portfolio"}>Portfolio</Link>
+            <Link to={"/ntdev/portfolio"}>Portfolio</Link>
           </div>
         </div>
         <div className="flex lg:w-1/2 mx-auto justify-around text-2xl my-5 gap-6   lg:gap-0">

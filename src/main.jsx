@@ -13,13 +13,13 @@ import Error from './Error.jsx'
 
 
 const router = createBrowserRouter([
-  {path:'/',element:<App/>},
-  {path:'/portfolio', element:<Portfolio/>},
-  {path:'/skills', element:<SkillsPage/>},
-  {path:'/certifications', element:<Certifications/>},
-  {path:'/testimonials', element:<Testimonials/>},
-  {path:'/blogs', element:<Blogs/>},
-  {path:'/projectspage', element:<ProjectsPage/>},
+  {path:'/ntdev/',element:<App/>},
+  {path:'/ntdev/portfolio', element:<Portfolio/>},
+  {path:'/ntdev/skills', element:<SkillsPage/>},
+  {path:'/ntdev/certifications', element:<Certifications/>},
+  {path:'/ntdev/testimonials', element:<Testimonials/>},
+  {path:'/ntdev/blogs', element:<Blogs/>},
+  {path:'/ntdev/projectspage', element:<ProjectsPage/>},
 ])
 
 createRoot(document.getElementById('root')).render(
