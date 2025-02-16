@@ -11,6 +11,7 @@ const moreMenu = [
 ];
 const menu=[
   {name:"Home", link:"/ntdev/"},
+  {name:"About" , link:"/ntdev/portfolio"},
   { name: "Projects", link:'/ntdev/projectspage' },
   { name: "Skills" , link:'/ntdev/skills' },
   { name: "Certifications" , link:'/ntdev/certifications' },
