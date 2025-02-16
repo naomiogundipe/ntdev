@@ -4,28 +4,27 @@ import Primarybtn from "../Buttons/Primarybtn";
 const Skills = ({ skill }) => {
   return (
     <>
-      <div className="h-full w-full bg-white p-12 flex flex-col gap-5 items-center">
-        <p className="text-6xl font-bold uppercase">Skills</p>
-        <div className="w-[100%] h-full p-4 flex gap-4 flex-wrap items-center justify-center mx-auto">
-          <div className="w-[250px] h-[250px] flex flex-col p-3 items-center gap-3">
-            <div className="w-[70%] h-[70%] rounded-full flex items-center justify-center">
+      <div className="h-full w-full bg-white lg:p-12 py-8 flex flex-col gap-7 items-center">
+        <p className="lg:text-6xl sm:text-[3rem] text-[2rem] font-bold uppercase">Skills</p>
+        <div className="w-[100%] h-full  px-4 py-6 flex lg:gap-4 gap-6 flex-wrap items-center justify-center mx-auto">
+          <div className="lg:w-[250px] lg:h-[250px] w-[100px] h-[100px] flex flex-col p-3 items-center gap-3">
+            <div className="lg:w-[70%] lg:h-[70%] w-[100%] h-[100%]  rounded-full flex items-center justify-center">
               <FaNodeJs className="w-full h-full text-gray-500" />
             </div>
             <p className="uppercase text-slate-800 font-semibold italic">
               Node.js
             </p>
           </div>
-         
-          <div className="w-[250px] h-[250px] flex flex-col p-3 items-center gap-3">
-            <div className="w-[70%] h-[70%] rounded-full flex items-center justify-center">
+          <div className="lg:w-[250px] lg:h-[250px] w-[100px] h-[100px] flex flex-col p-3 items-center gap-3">
+            <div className="lg:w-[70%] lg:h-[70%] w-[100%] h-[100%]  rounded-full flex items-center justify-center">
               <FaReact className="w-full h-full text-gray-500" />
             </div>
             <p className="uppercase text-slate-800 font-semibold italic">
               react.js
             </p>
           </div>
-          <div className="w-[250px] h-[250px] flex flex-col p-3 items-center gap-3">
-            <div className="w-[70%] h-[70%] rounded-full flex items-center justify-center">
+          <div className="lg:w-[250px] lg:h-[250px] w-[100px] h-[100px] flex flex-col p-3 items-center gap-3">
+            <div className="lg:w-[70%] lg:h-[70%] w-[100%] h-[100%]  rounded-full flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
@@ -39,8 +38,8 @@ const Skills = ({ skill }) => {
               Express.js
             </p>
           </div>
-          <div className="w-[250px] h-[250px] flex flex-col p-3 items-center gap-3">
-            <div className="w-[70%] h-[70%] rounded-full flex items-center justify-center">
+          <div className="lg:w-[250px] lg:h-[250px] w-[100px] h-[100px] flex flex-col p-3 items-center gap-3">
+            <div className="lg:w-[70%] lg:h-[70%] w-[100%] h-[100%]  rounded-full flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
@@ -54,8 +53,8 @@ const Skills = ({ skill }) => {
               tailwindcss
             </p>
           </div>
-          <div className="w-[250px] h-[250px] flex flex-col p-3 items-center gap-3">
-            <div className="w-[70%] h-[70%] rounded-full flex items-center justify-center">
+          <div className="lg:w-[250px] lg:h-[250px] w-[100px] h-[100px] flex flex-col p-3 items-center gap-3">
+            <div className="lg:w-[70%] lg:h-[70%] w-[100%] h-[100%]  rounded-full flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
@@ -69,8 +68,8 @@ const Skills = ({ skill }) => {
               javascript
             </p>
           </div>
-          <div className="w-[250px] h-[250px] flex flex-col p-3 items-center gap-3">
-            <div className="w-[70%] h-[70%] rounded-full flex items-center justify-center">
+          <div className="lg:w-[250px] lg:h-[250px] w-[100px] h-[100px] flex flex-col p-3 items-center gap-3">
+            <div className="lg:w-[70%] lg:h-[70%] w-[100%] h-[100%]  rounded-full flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
@@ -84,8 +83,8 @@ const Skills = ({ skill }) => {
               bootstrap
             </p>
           </div>
-          <div className="w-[250px] h-[250px] flex flex-col p-3 items-center gap-3">
-            <div className="w-[70%] h-[70%] rounded-full flex items-center justify-center">
+          <div className="lg:w-[250px] lg:h-[250px] w-[100px] h-[100px] flex flex-col p-3 items-center gap-3">
+            <div className="lg:w-[70%] lg:h-[70%] w-[100%] h-[100%]  rounded-full flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
@@ -98,7 +97,7 @@ const Skills = ({ skill }) => {
             <p className="uppercase text-slate-800 font-semibold italic">git</p>
           </div>
         </div>
-        <Primarybtn text={"See More"}/>
+        <Primarybtn text={"See More"} />
       </div>
     </>
   );
@@ -106,19 +105,21 @@ const Skills = ({ skill }) => {
 
 export default Skills;
 
- {/* <div className="w-[250px] h-[250px] flex flex-col p-3 items-center gap-3">
-            <div className="w-[70%] h-[70%] rounded-full flex items-center justify-center">
+{
+  /* <div className="lg:w-[250px] lg:h-[250px] w-[100px] h-[100px] flex flex-col p-3 items-center gap-3">
+            <div className="lg:w-[70%] lg:h-[70%] w-[100%] h-[100%]  rounded-full flex items-center justify-center">
               <FaHtml5 className="w-full h-full text-gray-500" />
             </div>
             <p className="uppercase text-slate-800 font-semibold italic">
               HTML5
             </p>
           </div>
-          <div className="w-[250px] h-[250px] flex flex-col p-3 items-center gap-3">
-            <div className="w-[70%] h-[70%] rounded-full flex items-center justify-center">
+          <div className="lg:w-[250px] lg:h-[250px] w-[100px] h-[100px] flex flex-col p-3 items-center gap-3">
+            <div className="lg:w-[70%] lg:h-[70%] w-[100%] h-[100%]  rounded-full flex items-center justify-center">
               <FaCss3 className="w-full h-full text-gray-500" />
             </div>
             <p className="uppercase text-slate-800 font-semibold italic">
               CSS3
             </p>
-          </div> */}
+          </div> */
+}

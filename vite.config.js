@@ -6,7 +6,4 @@ import tailwincss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(), tailwincss()],
   base:"/ntdev/",
-  css:{
-    devSourcemap:true,
-  }
 });
