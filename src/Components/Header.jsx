@@ -30,7 +30,7 @@ const Header = () => {
   return (
     <>
       <div
-        className={`bg-[#111a3b] w-full  shadow-md shadow-black rounded-bl-xl rounded-br-xl py-4 px-12 sticky`}
+        className={`bg-[#111a3b] w-full  shadow-md shadow-black rounded-bl-xl rounded-br-xl py-4 px-12 sticky z-10`}
       >
         <div
           className={`max-w-7xl text-white flex justify-between items-center mx-auto`}
